@@ -1,0 +1,101 @@
+
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232323;
+    color: #6a00a9; 
+    padding: 0 20px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+.logo1{
+    width: 60px;
+    height:60px;
+}
+.icon {
+    width:20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.search-input{
+    width: 300px;
+    margin-right: 25px;
+    background-color: transparent;
+    border: 1px solid #D1A8EC;;
+    border-radius: 25px;
+    outline:#6a00a9;
+    color: white;
+}
+.profile{
+    border-radius: 50%;
+    width: 35px;
+    cursor: pointer;
+}
+.profile-box {
+    position: absolute;
+  top: 10%; 
+  right: 5%; 
+  z-index: 100; 
+  display: flex;
+  align-items: center;
+  width: 15%;
+  background: #232323; 
+  padding: 10px;
+  border-radius: 5px;
+}
+.email{
+    font-size: small;
+    color: #B6A3C2;;
+}
+
+.profile-pic {
+    display: table-cell;
+    width: 100px; 
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.profile-pic img {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+}
+
+.info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logout-btn {
+    width: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.lo{
+    width: 5px;
+    font-size: smaller;
+    display: flex;
+  align-items: center;
+}
+.lo .fa-sign-out {
+    margin-left: 5px;
+  }
+
+

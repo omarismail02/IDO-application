@@ -1,0 +1,15 @@
+.app{
+    display: grid;
+    grid-template-rows: 150px auto;
+}
+.app_main{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 1px;
+}
+
+.task_column{
+    width: 33.33%;
+    margin:20px;
+}

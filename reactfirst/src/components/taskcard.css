@@ -1,0 +1,98 @@
+.task-card{
+    width: 85%;
+    min-height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px 16px;
+    margin: 15px 0;
+}
+.title{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+.task-card table {
+  border-spacing: 0 15px; 
+}
+
+.info {
+    color: #6C757D;
+  }
+.importance {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .imp{
+     font-size: 15px;
+     font-weight: 500;
+  }
+
+.task-card input,
+.task-card select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 2px 5px;
+  font-size: 14px;
+  width: calc(100% - 10px);
+}
+
+.task-card input:focus,
+.task-card select:focus {
+  outline: none;
+}
+
+.task-card .importance {
+  padding: 2px 5px;
+
+.task-card input,
+.task-card select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 2px 5px;
+  font-size: 14px;
+  width: calc(100% - 10px);
+}
+
+.task-card input:focus,
+.task-card select:focus {
+  outline: none;
+}
+
+.task-card .importance {
+  padding: 2px 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.task-card .info {
+  padding-right: 10px;
+}
+
+.task-card .title input {
+  font-size: 16px;
+  width: 100%;
+}
+
+  display: inline-block;
+}
+
+.task-card .info {
+  padding-right: 10px;
+}
+
+.task-card .title input {
+  font-size: 16px;
+  width: 100%;
+}

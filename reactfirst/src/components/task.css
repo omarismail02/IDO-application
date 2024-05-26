@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+*{
+    font-family:"poppins";
+}
+
+.task-column-icon{
+    font-size: large;
+    height: 25px;
+    margin-right: 5px;
+    color:blueviolet;
+}
+.task-card{
+    width:240px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;  
+    border: none; 
+    margin-bottom: 10px;
+}
+.task-card ul{
+    list-style-type: none;
+   
+}
+.task-card .list-item {
+   margin-bottom: 30px;
+}
+.task-card .list{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.831);
+}

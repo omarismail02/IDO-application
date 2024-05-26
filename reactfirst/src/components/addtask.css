@@ -1,0 +1,55 @@
+
+.task-manager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #fff;
+    position: relative; 
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #9400D3; 
+    border-radius: 10px;
+    background-color: #000;
+  }
+  
+  input, select, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input, select {
+    background-color: #fff; 
+    color: #000; 
+  }
+  
+  button {
+    background-color: #9400D3; 
+    color: #fff; 
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6a00a9; 
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 20px; 
+    right: 10px; 
+    cursor: pointer;
+    color: #000; 
+  }
+  
+  .close-icon:hover {
+    color: #6a00a9; 
+  }
+  

@@ -1,0 +1,6 @@
+@To_do_IDO_HostAddress = http://localhost:5255
+
+GET {{To_do_IDO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
